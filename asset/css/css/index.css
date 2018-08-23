@@ -1,0 +1,135 @@
+.below-bread{
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+.below-bread img{
+  display: block;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+.below-bread .breadcrumb{
+  font-size: 14px;
+  color:#666;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+  margin: 0;
+}
+.below-bread .breadcrumb a{
+  color:#666;
+}
+/* headquarters蛙小侠总部代码 开始*/
+.headquarters{
+  margin-bottom: 60px;
+}
+.headquarters p{
+  color:#666;
+  font-size: 14px;
+  line-height: 2;
+}
+/* 蛙小侠总部代码 end*/
+
+/* news新闻动态代码 开始*/
+.news{
+  padding:5px 0;
+  margin-bottom: 15px;
+  border-bottom:1px solid #eee;
+}
+.news h4 a{
+  color:#555;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.5s ease;
+  -webkit-transition: color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+}
+.news h4 a:hover{
+  color:#01A2A6;
+}
+.just-test-div .data-set{
+  font-size: 12px;
+  padding: 5px 0;
+  margin: 10px 0;
+  color:#999;
+}
+.just-test-div p{
+  text-align: justify;
+  color: #666;
+  font-size: 14px;
+  line-height: 25px;
+}
+.just-div{
+  color:#666;
+}
+.just-div h3{
+  color:inherit;
+  padding:20px 0 10px;
+  text-align: center;
+  margin:0 auto;
+}
+.just-div .data-set{
+  padding: 5px 0;
+  margin: 10px 0;
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+}
+.just-div li{
+  list-style: none;
+}
+.just-div .page-turning{
+  margin-top: 25px;
+  text-align: left;
+}
+.page-turning{
+  margin-bottom: 15px;
+  text-align: center;
+}
+.page-turning a{
+  display:inline-block;
+  color:#666;
+  background-color: #eee;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 50%;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.page-turning a:hover,.page-turning .active{
+  background-color: #01A2A6;
+  color:#fff;
+}
+.page-turning a span{
+  display:inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+}
+/* 新闻动态代码 end*/
+
+/* product 蛙小侠美食代码开始 */
+img.img-responsive{
+  margin: 20px 0;
+}
+/* product 蛙小侠美食代码 end */
+
+/* contact 联系我们 */
+.contact-us .desc{
+  font-size: 16px;
+  color:#666;
+}
+.just-text-div{
+  color:#666;
+  font-size: 16px;
+}
+.just-text-div h3{
+  font-size: 16px;
+  font-weight: 600;
+}
+/* 自适应代码 */
+@media (max-width:768px) {
+  .headquarters p{font-size: 16px;}
+
+}
